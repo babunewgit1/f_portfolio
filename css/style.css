@@ -1,0 +1,273 @@
+body {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  background: #fff;
+  color: #1c1c1c;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+label {
+  margin-bottom: 0;
+}
+
+::selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-webkit-selection {
+  color: white;
+  background: #ff7675;
+}
+
+::-moz-selection {
+  color: white;
+  background: #ff7675;
+}
+
+.scrolltotop {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px 20px 0 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: block;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 22px;
+  color: #ffffff;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  display: none;
+  transition: 0.2s all ease;
+  -webkit-transition: 0.2s all ease;
+  -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {
+  background: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* -- header area start -- */
+
+header {
+  background-color: #fff;
+  padding: 15px 0px;
+}
+
+.header_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a img {
+  display: inline-block;
+  width: 110px;
+}
+
+.menu_item ul li {
+  display: inline-block;
+}
+
+.menu_item ul li a {
+  display: inline-block;
+  font-size: 16px;
+  color: #1c1c1c;
+  margin-left: 72px;
+}
+
+.menu_item ul li:last-child a {
+  background-color: #a129ff;
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 36px;
+  transition: all 0.3s ease;
+}
+
+.menu_item ul li:last-child a:hover {
+  opacity: 0.7;
+}
+/* -- header area end -- */
+
+/* -- hero area start -- */
+#hero {
+  background-image: url(../img/shape.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 250px;
+  padding-bottom: 180px;
+  margin-top: -87px;
+}
+
+.hero_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.hero_left {
+  display: block;
+  width: 192px;
+}
+
+.hero_right p {
+  margin-left: 8px;
+}
+
+.hero_right h2 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.hero_right h2 span {
+  position: relative;
+}
+
+.hero_right h2 span:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-image: url(../img/bar.svg);
+  background-size: 100% 100%;
+}
+
+.hero_right h4 {
+  font-size: 24px;
+  margin-top: 14px;
+  font-weight: normal;
+  margin-left: 8px;
+}
+/* -- hero area end -- */
+
+/* -- about area start -- */
+.about_wrapper {
+  max-width: 733px;
+  width: 100%;
+  margin: auto;
+}
+
+.about_heading h2 {
+  font-size: 48px;
+  font-weight: bold;
+  display: inline-block;
+  border-bottom: 2px solid #a129ff;
+  padding-bottom: 10px;
+}
+
+.about_wrapper p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 18px;
+}
+/* -- about area end -- */
+
+/* -- work area start -- */
+.work_heading h2 {
+  font-size: 48px;
+  font-weight: bold;
+  border-bottom: 2px solid #a129ff;
+  padding-bottom: 10px;
+}
+
+.controls button {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+  background: rgba(161, 41, 255, 0.15);
+  color: #a129ff;
+  padding: 16px 32px;
+  margin-right: 10px;
+}
+
+.mixitup-control-active {
+  color: #fff !important;
+  background-color: #a129ff !important;
+}
+
+.work_wrapper_block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.work_one img {
+  display: block;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.work_cnt h3 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 24px;
+}
+
+.work_cnt p {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  margin-top: 8px;
+}
+
+.work_cnt ul li {
+  display: inline-block;
+  font-size: 14px;
+  color: #a129ff;
+  border-radius: 40px;
+  background: rgba(161, 41, 255, 0.1);
+  padding: 12px 24px;
+  margin-right: 8px;
+  margin-top: 20px;
+}
+
+.work_one {
+  margin-top: 45px;
+}
+
+.work_wrapper {
+  margin-top: 40px;
+}
+
+#work {
+  padding-top: 130px;
+}
+
+/* -- work area end -- */
