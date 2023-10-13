@@ -46,7 +46,13 @@
             <a href="index.html">
               <img src="img/logo.svg" alt="logo" />
             </a>
-            <div class="bar">
+            <div
+              class="bar d-block d-lg-none"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample"
+            >
               <span></span>
               <span></span>
               <span></span>
@@ -378,7 +384,7 @@
       <div class="container">
         <div class="contact_wrapper">
           <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="contact_left">
                 <h2>Get in tocuh with me</h2>
                 <p>
@@ -397,7 +403,7 @@
                 </ul>
               </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6">
               <div class="contact_right">
                 <form action="">
                   <div class="contact_right_wrapper">
@@ -425,6 +431,35 @@
       </div>
     </section>
     <!-- copyright area end -->
+
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="offcanvasExample"
+      aria-labelledby="offcanvasExampleLabel"
+    >
+      <div class="offcanvas-header">
+        <img src="img/logo.svg" alt="" />
+        <button
+          type="button"
+          class="btn-close text-reset"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="mobile_menu">
+          <div class="menu_item">
+            <ul>
+              <li><a href="#">Intro</a></li>
+              <li><a href="#">Work</a></li>
+              <li><a href="#">Experience</a></li>
+              <li><a href="#">Contact me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Main jQuery -->
     <script src="js/jquery-3.6.0.min.js"></script>

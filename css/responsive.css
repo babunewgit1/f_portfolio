@@ -4,37 +4,6 @@ Medium Screen - Others
 ====================================
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -43,36 +12,178 @@ Small Screen - Tablate
 ====================================
 */
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu_item {
+    display: none;
+  }
 
+  .offcanvas-header img {
+    display: inline-block;
+    width: 110px;
+  }
 
+  .mobile_menu .menu_item {
+    display: block;
+  }
 
+  .menu_item ul li {
+    display: block;
+  }
 
+  .menu_item ul li a {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 
+  .menu_item ul li:last-child a {
+    padding: 8px 32px;
+  }
 
+  #hero {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
 
+  .hero_wrapper {
+    text-align: center;
+    display: block;
+  }
 
+  .hero_left {
+    width: 135px;
+    margin: auto;
+  }
 
+  .hero_right h2 {
+    font-size: 50px;
+  }
 
+  .hero_right {
+    margin-top: 20px;
+  }
 
+  .about_heading h2 {
+    font-size: 35px;
+    padding-bottom: 4px;
+  }
 
+  #work {
+    padding-top: 60px;
+  }
 
+  h2.workheading {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid #a129ff;
+    padding-bottom: 4px;
+  }
 
+  .controls button {
+    padding: 8px 20px;
+    margin-right: 4px;
+  }
 
+  .work_wrapper {
+    margin-top: 20px;
+  }
 
+  .controls {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
 
+  .controls::-webkit-scrollbar {
+    width: 0px;
+  }
 
+  .work_one {
+    margin-top: 30px;
+  }
+  .work_cnt h3 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
 
+  .work_cnt p {
+    font-size: 16px;
+  }
 
+  .work_cnt ul li {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    margin-right: 0;
+  }
 
+  #experience {
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
 
+  .exp_heading {
+    margin-bottom: 30px;
+  }
 
+  .exp_block {
+    border-radius: 10px;
+    padding: 15px;
+  }
 
+  .exp_block_heading {
+    display: block;
+  }
 
+  .exp_block_heading_left p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
 
+  .exp_block_heading_left h3 {
+    font-size: 25px;
+  }
 
+  .exp_block_para p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
 
+  .exp_block_para ul li {
+    font-size: 12px;
+    padding: 8px 15px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+  }
 
+  #contact {
+    padding: 45px 0px;
+  }
+
+  .contact_left h2 {
+    font-size: 40px;
+  }
+
+  .contact_right {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .contact_right_wrapper input,
+  .contact_right_wrapper textarea {
+    padding: 14px 15px;
+    border-radius: 10px;
+  }
+
+  #copyright {
+    background-color: #a129ff;
+    padding: 20px 0px;
+  }
 }
 
 /*
@@ -80,34 +191,184 @@ Small Screen - Tablate
 Small Screen - Mobile
 ====================================
 */
-@media screen and (min-width: 576px) and (max-width: 767px) {	
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu_item {
+    display: none;
+  }
 
+  .offcanvas-header img {
+    display: inline-block;
+    width: 110px;
+  }
 
+  .mobile_menu .menu_item {
+    display: block;
+  }
 
+  .menu_item ul li {
+    display: block;
+  }
 
+  .menu_item ul li a {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 
+  .menu_item ul li:last-child a {
+    padding: 8px 32px;
+  }
 
+  #hero {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
 
+  .hero_wrapper {
+    text-align: center;
+    display: block;
+  }
 
+  .hero_left {
+    width: 135px;
+    margin: auto;
+  }
 
+  .hero_right h2 {
+    font-size: 50px;
+  }
 
+  .hero_right {
+    margin-top: 20px;
+  }
 
+  .about_heading h2 {
+    font-size: 35px;
+    padding-bottom: 4px;
+  }
 
+  #work {
+    padding-top: 60px;
+  }
 
+  h2.workheading {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid #a129ff;
+    padding-bottom: 4px;
+  }
 
+  .controls button {
+    padding: 8px 20px;
+    margin-right: 4px;
+  }
 
+  .work_wrapper {
+    margin-top: 20px;
+  }
 
+  .controls {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
 
+  .controls::-webkit-scrollbar {
+    width: 0px;
+  }
 
+  .work_one {
+    margin-top: 30px;
+  }
 
+  .work_wrapper_block {
+    display: block;
+  }
 
+  .work_cnt h3 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
 
+  .work_cnt p {
+    font-size: 16px;
+  }
 
+  .work_cnt ul li {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    margin-right: 0;
+  }
 
+  #experience {
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
 
+  .exp_heading {
+    margin-bottom: 30px;
+  }
 
+  .exp_block {
+    border-radius: 10px;
+    padding: 15px;
+  }
 
+  .exp_block_heading {
+    display: block;
+  }
+
+  .exp_block_heading_left p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+
+  .exp_block_heading_left h3 {
+    font-size: 25px;
+  }
+
+  .exp_block_para p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .exp_block_para ul li {
+    font-size: 12px;
+    padding: 8px 15px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+  }
+
+  #contact {
+    padding: 45px 0px;
+  }
+
+  .contact_left h2 {
+    font-size: 40px;
+  }
+
+  .contact_right {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .contact_right_wrapper input,
+  .contact_right_wrapper textarea {
+    padding: 14px 15px;
+    border-radius: 10px;
+  }
+
+  #copyright {
+    background-color: #a129ff;
+    padding: 20px 0px;
+  }
 }
 
 /*
@@ -116,34 +377,181 @@ Xtra Small Screen - Small Mobile
 ====================================
 */
 @media screen and (max-width: 576px) {
+  .header_wrapper {
+    display: block;
+  }
 
+  .menu_item {
+    display: none;
+  }
 
+  .offcanvas-header img {
+    display: inline-block;
+    width: 110px;
+  }
 
+  .mobile_menu .menu_item {
+    display: block;
+  }
 
+  .menu_item ul li {
+    display: block;
+  }
 
+  .menu_item ul li a {
+    margin-left: 0;
+    margin-bottom: 15px;
+  }
 
+  .menu_item ul li:last-child a {
+    padding: 8px 32px;
+  }
 
+  #hero {
+    padding-top: 140px;
+    padding-bottom: 70px;
+  }
 
+  .hero_wrapper {
+    text-align: center;
+    display: block;
+  }
 
+  .hero_left {
+    width: 135px;
+    margin: auto;
+  }
 
+  .hero_right h2 {
+    font-size: 50px;
+  }
 
+  .hero_right {
+    margin-top: 20px;
+  }
 
+  .about_heading h2 {
+    font-size: 35px;
+    padding-bottom: 4px;
+  }
 
+  #work {
+    padding-top: 60px;
+  }
 
+  h2.workheading {
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 2px solid #a129ff;
+    padding-bottom: 4px;
+  }
 
+  .controls button {
+    padding: 8px 20px;
+    margin-right: 4px;
+  }
 
+  .work_wrapper {
+    margin-top: 20px;
+  }
 
+  .controls {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
 
+  .controls::-webkit-scrollbar {
+    width: 0px;
+  }
 
+  .work_one {
+    margin-top: 30px;
+  }
 
+  .work_wrapper_block {
+    display: block;
+  }
 
+  .work_cnt h3 {
+    font-size: 25px;
+    margin-top: 15px;
+  }
 
+  .work_cnt p {
+    font-size: 16px;
+  }
 
+  .work_cnt ul li {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin-top: 12px;
+    margin-right: 0;
+  }
 
+  #experience {
+    padding-top: 55px;
+    padding-bottom: 35px;
+  }
 
+  .exp_heading {
+    margin-bottom: 30px;
+  }
 
+  .exp_block {
+    border-radius: 10px;
+    padding: 15px;
+  }
 
+  .exp_block_heading {
+    display: block;
+  }
 
+  .exp_block_heading_left p {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
 
+  .exp_block_heading_left h3 {
+    font-size: 25px;
+  }
 
+  .exp_block_para p {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .exp_block_para ul li {
+    font-size: 12px;
+    padding: 8px 15px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+  }
+
+  #contact {
+    padding: 45px 0px;
+  }
+
+  .contact_left h2 {
+    font-size: 40px;
+  }
+
+  .contact_right {
+    max-width: 100%;
+    margin-top: 40px;
+  }
+
+  .contact_right_wrapper input,
+  .contact_right_wrapper textarea {
+    padding: 14px 15px;
+    border-radius: 10px;
+  }
+
+  #copyright {
+    background-color: #a129ff;
+    padding: 20px 0px;
+  }
 }
