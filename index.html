@@ -39,7 +39,7 @@
     <![endif]-->
 
     <!-- header area start -->
-    <header>
+    <header class="sticky-top">
       <div class="container">
         <div class="header_wrapper">
           <div class="logo">
@@ -60,10 +60,10 @@
           </div>
           <div class="menu_item">
             <ul>
-              <li><a href="#">Intro</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Experience</a></li>
-              <li><a href="#">Contact me</a></li>
+              <li><a data-scroll="hero" href="#">Intro</a></li>
+              <li><a data-scroll="work" href="#">Work</a></li>
+              <li><a data-scroll="experience" href="#">Experience</a></li>
+              <li><a data-scroll="contact" href="#">Contact me</a></li>
             </ul>
           </div>
         </div>
@@ -451,10 +451,10 @@
         <div class="mobile_menu">
           <div class="menu_item">
             <ul>
-              <li><a href="#">Intro</a></li>
-              <li><a href="#">Work</a></li>
-              <li><a href="#">Experience</a></li>
-              <li><a href="#">Contact me</a></li>
+              <li><a data-scroll="hero" href="#">Intro</a></li>
+              <li><a data-scroll="work" href="#">Work</a></li>
+              <li><a data-scroll="experience" href="#">Experience</a></li>
+              <li><a data-scroll="contact" href="#">Contact me</a></li>
             </ul>
           </div>
         </div>
@@ -468,10 +468,11 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <!-- Fontawesome Script -->
-    <script src="https://kit.fontawesome.com/e7f2043049.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/e7f2043049.js"></script> -->
 
     <!-- Custom jQuery -->
     <script src="js/mixitup.js"></script>
+    <script src="js/smartScroll.js"></script>
     <script src="js/scripts.js"></script>
 
     <!-- Scroll-Top button -->
@@ -483,6 +484,36 @@
       document
         .getElementById("activeBtn")
         .classList.add("mixitup-control-active");
+    </script>
+
+    <script>
+      (function ($) {
+        "use strict";
+        smartScroll.init(
+          {
+            speed: 700,
+            addActive: false,
+            activeClass: "active",
+            offset: 10,
+          },
+          function () {
+            console.log("callback");
+          }
+        );
+      })(jQuery);
+    </script>
+    <script type="text/javascript">
+      (function ($) {
+        $(document).ready(function () {
+          jQuery(window).on("scroll", function () {
+            if (jQuery(window).scrollTop()) {
+              jQuery("header").addClass("bgadd");
+            } else {
+              jQuery("header").removeClass("bgadd");
+            }
+          });
+        });
+      })(jQuery);
     </script>
   </body>
 </html>
