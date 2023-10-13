@@ -199,7 +199,7 @@ header {
 /* -- about area end -- */
 
 /* -- work area start -- */
-.work_heading h2 {
+h2.workheading {
   font-size: 48px;
   font-weight: bold;
   border-bottom: 2px solid #a129ff;
@@ -269,5 +269,157 @@ header {
 #work {
   padding-top: 130px;
 }
-
 /* -- work area end -- */
+
+/* -- experience area start -- */
+#experience {
+  padding-top: 130px;
+  padding-bottom: 80px;
+}
+
+.exp_heading {
+  margin-bottom: 55px;
+}
+
+.exp_block {
+  border: 1px solid #1c1c1c;
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.exp_block_heading_left h3 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.exp_block_heading_left p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  color: #a129ff;
+  margin-top: 8px;
+}
+
+.exp_block_heading_right p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.exp_block_heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.exp_block_para p {
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  max-width: 91%;
+}
+
+.exp_block_para ul li {
+  display: inline-block;
+  color: #a129ff;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 40px;
+  background: rgba(161, 41, 255, 0.1);
+  padding: 12px 24px;
+  margin-right: 8px;
+}
+/* -- experience area end -- */
+
+/* -- contact area start -- */
+#contact {
+  background-color: #a129ff;
+  padding-top: 64px;
+  padding-bottom: 96px;
+}
+
+.contact_left h2 {
+  font-size: 64px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.contact_left p {
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+
+.contact_left ul li {
+  display: inline-block;
+}
+
+.contact_left ul li a {
+  display: inline-block;
+}
+
+.contact_left ul li a img {
+  display: inline-block;
+  width: 32px;
+}
+
+.contact_right_wrapper input,
+.contact_right_wrapper textarea {
+  display: block;
+  width: 100%;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+  padding: 20px 22px;
+  border-radius: 16px;
+  margin-bottom: 18px;
+}
+
+.contact_right_wrapper input::placeholder,
+.contact_right_wrapper textarea::placeholder {
+  opacity: 0.5;
+}
+
+.contact_right_wrapper textarea {
+  resize: none;
+  height: 180px;
+}
+
+.submit_button button {
+  display: inline-block;
+  border: 0;
+  outline: none;
+  border-radius: 40px;
+  background: #fff;
+  color: #a129ff;
+  padding: 16px 32px;
+  transition: all 0.2s ease;
+}
+
+.submit_button button:hover {
+  opacity: 0.7;
+}
+
+.contact_right {
+  max-width: 505px;
+  margin-left: auto;
+}
+/* -- contact area end -- */
+
+/* -- copyright area start -- */
+#copyright {
+  background-color: #a129ff;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px 0px;
+}
+
+.copyright_wrapper p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* -- copyright area end -- */
